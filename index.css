@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(211, 195, 195);
+    margin: 0%;
+  }
+
+  .list {
+    list-style: none;
+    text-align: left;
+  }
+
+  ul li a {
+    text-decoration: none;
+    color: gray;
+  }
+
+  .heading_3 {
+    text-align: left;
+    padding-left: 30px;
+
+
+  }
+
+  .colum_1 {
+    border-right: 1px solid black;
+  }
+
+  .right{
+    /* background-color: #0e3d61; */
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    margin-left: 52rem;
+    top: 45rem;
+   }
+   .card{
+       display: flex;
+       justify-content: space-evenly;
+   }
+   body{
+       margin: 0px;
+       background-image:linear-gradient(to right,#005AA7,#FFFDE4)
+   }
+
+   .login-container {
+    background-image: url('https://cdn.pixabay.com/photo/2015/01/08/18/11/laptops-593296_1280.jpg'); /* Add the path to your background image */
+    background-size: cover;
+    background-position: center;
+    padding: 20px; /* Add padding to the container for better readability */
+}
+
+.login-form {
+    /* background-color: rgba(255, 255, 255); Add a semi-transparent background color for the form */
+    padding: 20px; /* Add padding to the form for better readability */
+    border-radius: 10px; /* Add border radius for rounded corners */
+}

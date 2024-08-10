@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>main page the website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+
+
+<body>
+
+  <!-- navbar section  -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="container-fluid ">
+      <a class="navbar-brand fs-3 ps-3 text-light" href="#"><i class="fa-brands fa-html5"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-light">
+          <li class="nav-item ">
+            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-light" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Serives</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">portfilo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Skills
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Web development</a></li>
+              <li><a class="dropdown-item" href="#">Wordpress</a></li>
+              <li><a class="dropdown-item" href="#">C++</a></li>
+              <li><a class="dropdown-item" href="#">python</a></li>
+            </ul>
+
+        </ul>
+        <form class="d-flex">
+          <a href="" class="ms-4 fs-3"><i class="fa-brands fa-linkedin" style="color: rgb(10, 113, 153);"></i></a>
+          <a href="" class="ms-4 fs-3"><i class="fa-brands fa-instagram" style="color: rosybrown;"></i></i></a>
+          <a href="" class="ms-4 fs-3"><i class="fa-brands fa-facebook"></i></a>
+          <a href="" class="ms-4 fs-3"><i class="fa-brands fa-youtube" style="color: rgb(221, 31, 31);"></i></i></a>
+          <button class="btn btn-primary me-3 ms-4 ps-5 pe-5">Download</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- carousal section  -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img style="background-position: center; background-repeat: no-repeat; background-size: cover; height: 500px;"
+          src="https://cdn.pixabay.com/photo/2015/01/08/18/28/startup-593343_1280.jpg" class="d-block w-100"
+          alt="pixel_image">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First planning</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img style="background-position: center; background-repeat: no-repeat; background-size: cover; height: 500px;"
+          src="https://cdn.pixabay.com/photo/2016/03/27/20/12/desk-1284085_1280.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second design </h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img style="background-position: center; background-repeat: no-repeat; background-size: cover; height: 500px;"
+          src="https://cdn.pixabay.com/photo/2020/01/26/20/14/computer-4795762_1280.jpg" class="d-block w-100"
+          alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third implenemtion</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- text section  -->
+
+  <div class="container fluid mt-5">
+    <div class="row">
+      <div class="col  mt-3">
+        <h1>First We planning</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum ab numquam suscipit quo magni quae sequi a
+          nesciunt, porro illo consequuntur natus quod harum? Impedit eveniet alias fugit ullam error?</p>
+        <button class="btn btn-primary">Learn more >></button>
+      </div>
+    </div>
+  </div>
+  <!-- card section  -->
+
+  <div class="row row-cols-1 row-cols-md-2 g-2 mt-4">
+    <div class="col-sm-3">
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png" class="card-img-top"
+          alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Team work make diagram</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+            content..</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 ">
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2017/05/04/16/37/meeting-2284501_1280.jpg" class="card-img-top"
+          alt="...">
+        <div class="card-body">
+          <h5 class="card-title">planning the project</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 ">
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2015/07/17/22/42/startup-849804_1280.jpg" class="card-img-top"
+          alt="...">
+        <div class="card-body">
+          <h5 class="card-title">planning the project</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+            content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3  ">
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2019/04/29/07/04/software-development-4165307_1280.jpg"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Everyone assign the project</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+            content. Lorem ipsum dolor sit amet </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- two div display are flex  -->
+  <div class="container fluid">
+    <div class="row mt-5">
+      <div class="col-sm-7 mt-5 ">
+        <h2>First featurette heading. It’ll blow your mind.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt magnam odit at velit natus debitis rerum,
+          ab corrupti et? Facere veritatis quo deleniti molestias enim modi minima nesciunt. Voluptatum, officia? Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis expedita corrupti, repellat quam quae corporis
+          eligendi nostrum, dicta sapiente eaque, veniam velit quod non in aliquam aliquid dolore. Maiores, iste.lorem
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo doloribus obcaecati sed nobis, distinctio
+          ipsam, porro laudantium nisi eaque reiciendis debitis deleniti quia repellat ab autem, vel quae sunt itaque!
+        </p>
+      </div>
+      <div class="col-sm-5">
+        <img
+          style="width: 500px; height: 500px;  background-image: center; background-repeat: no-repeat; background-size: cover; border-radius: 7px;"
+          src="https://cdn.pixabay.com/photo/2015/01/08/18/28/startup-593343_1280.jpg" alt="">
+      </div>
+    </div>
+    <hr>
+
+    <div class="row mt-5">
+      <div class="col-sm-5 ">
+        <img
+          style="width: 500px; height: 500px;  background-image: center; background-repeat: no-repeat; background-size: cover; border-radius: 7px;"
+          src="https://cdn.pixabay.com/photo/2016/03/27/20/12/desk-1284085_1280.jpg" alt="">
+      </div>
+      <div class="col-sm-7 mt-5  ps-5 ">
+        <h2 class="text-center">First featurette heading. It’ll blow your </h2>
+        <p class="ps-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt magnam odit at velit natus
+          debitis rerum, ab corrupti et? Facere veritatis quo deleniti molestias enim modi minima nesciunt. Voluptatum,
+          officia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis expedita corrupti, repellat
+          quam quae corporis eligendi nostrum, dicta sapiente eaque, veniam velit quod non in aliquam aliquid dolore.
+          Maiores, iste.lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo doloribus obcaecati
+          sed nobis, distinctio ipsam, porro laudantium nisi eaque reiciendis debitis deleniti quia repellat ab autem,
+          vel quae sunt itaque!</p>
+      </div>
+    </div>
+    <hr>
+    <div class="row mt-5">
+      <div class="col-sm-7 mt-5 ">
+        <h2>First featurette heading. It’ll blow your mind.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt magnam odit at velit natus debitis rerum,
+          ab corrupti et? Facere veritatis quo deleniti molestias enim modi minima nesciunt. Voluptatum, officia? Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis expedita corrupti, repellat quam quae corporis
+          eligendi nostrum, dicta sapiente eaque, veniam velit quod non in aliquam aliquid dolore. Maiores, iste.lorem
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo doloribus obcaecati sed nobis, distinctio
+          ipsam, porro laudantium nisi eaque reiciendis debitis deleniti quia repellat ab autem, vel quae sunt itaque!
+        </p>
+      </div>
+      <div class="col-sm-5">
+        <img
+          style="width: 500px; height: 500px;  background-image: center; background-repeat: no-repeat; background-size: cover; border-radius: 7px;"
+          src="https://cdn.pixabay.com/photo/2020/01/26/20/14/computer-4795762_1280.jpg" alt="">
+      </div>
+    </div>
+
+  </div>
+
+  <!-- center title section  -->
+  <div class="card text-center mt-5  ">
+    <div class="card-body ">
+      <h5 class="card-title  fs-1">Special Team work</h5>
+      <p class="card-text ps-4 pe-4 text-left">With supporting text below as a natural lead-in to additional content.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, esse, unde necessitatibus, ab illo minima
+        illum Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolorem ducimus corporis delectus quia facere
+        officia alias est inventore eius. Eos expedita repellat fugiat ea nisi aperiam laboriosam dolore. Ea!llrom lorem
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor beatae labore dolorum repudiandae cumque?
+        Voluptate repellendus modi eaque blanditiis minus, officia reprehenderit soluta enim recusandae non? Tempore
+        doloribus nihil numquam!</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+  <!-- user section  -->
+
+  <div class="card-group  ">
+    <div class="card text-center  border-0 pt-5">
+      <img
+        style="width: 60%; height: 200px; background-position: center; background-repeat: no-repeat; background-size: cover; border-radius: 50%; margin-left: 4rem;"
+        src="https://media.istockphoto.com/id/1483329842/photo/studio-portrait-of-attractive-woman-wearing-shirt-and-laughing-while-sitting-at-isolated-grey.jpg?s=1024x1024&w=is&k=20&c=rjIKwziuhLala9CK_jKGNDYYL7ow-6lSV6hEbypX-hM="
+        class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title ">Mam: nazia</h5>
+        <p class="card-text pe-4 ps-3">This is a wider card with supporting text below as a natural lead-in to
+          additional content.
+          This content is a little bit longer.</p>
+      </div>
+    </div>
+    <div class="card text-center  border-0 pt-5">
+      <img
+        style="width: 60%; height: 200px; background-position: center; background-repeat: no-repeat; background-size: cover; border-radius: 50%; margin-left: 4rem;"
+        src="https://media.istockphoto.com/id/1438969575/photo/smiling-young-male-college-student-wearing-headphones-standing-in-a-classroom.webp?b=1&s=612x612&w=0&k=20&c=4QffcxGza_rr--wWMoe4up9EOJ_rhG4EPYcH5Is-Mv0="
+        class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Mr. Farooq khan</h5>
+        <p class="card-text pe-4 ps-3">This card has supporting text below as a natural lead-in to additional content.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem repudiandae in accusantium,</p>
+      </div>
+    </div>
+    <div class="card text-center  border-0 pt-5">
+      <img
+        style="width: 60%; height: 200px; background-position: center; background-repeat: no-repeat; background-size: cover; border-radius: 50%; margin-left: 4rem;"
+        src="https://media.istockphoto.com/id/1034293786/photo/portrait-of-sexy-casual-woman-standing-with-hands-in-pockets.jpg?s=612x612&w=0&k=20&c=39bOjGM4J5W43XyJU_xk797ph_MlPyYdGVbYN5CeEfg="
+        class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Mam: saba</h5>
+        <p class="card-text pe-4 ps-3">This is a wider card with supporting text below as a natural lead-in to
+          additional content.
+          This card has even longer content than the first to show that equal height action.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- pricing section  -->
+  <div class="container fluid ">
+    <div class="row">
+      <div class="col-sm-8 offset-sm-2">
+        <h1 class="text-center mt-5">Pricing List</h1>
+        <p class="text-center">Quickly build an effective pricing table for your potential customers with this Bootstrap
+          example. It’s built with default Bootstrap components and utilities with little customization Lorem, ipsum
+          dolor sit amet consectetur adipisicing elit. Illo consequuntur ea ipsum tenetur tempora. Nesciunt vel nisi
+          sapiente laborum dolorem, magni, eos fugiat adipisci quod <button class="btn btn-outline-secondary">learn
+            more>></button> </p>
+      </div>
+    </div>
+    <div class="row mt-5 ">
+      <div class="col-sm-4">
+        <div class="card text-dark bg-light mb-3 text-center" style="max-width: 18rem;">
+          <div class="card-header">Web development</div>
+          <div class="card-body">
+            <h5 class="card-title">$200/3months</h5>
+            <ul>
+              <li>online class google class_room</li>
+              <li>10 users only included</li>
+              <li>saturday,sunday and monday </li>
+              <li>Email requried for class</li>
+              <li>Help center access</li>
+            </ul>
+            <button class="btn btn-outline-primary ps-4 pe-4">Sign up for free</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card text-dark bg-light mb-3 text-center" style="max-width: 18rem;">
+          <div class="card-header">Python</div>
+          <div class="card-body">
+            <h5 class="card-title">$100/4months</h5>
+            <ul>
+              <li>online class google class_room</li>
+              <li>10 users only included</li>
+              <li>saturday,sunday and monday </li>
+              <li>Email requried for class</li>
+              <li>Help center access</li>
+            </ul>
+            <button class="btn btn-outline-primary ps-4 pe-4">Sign up for free</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card text-dark bg-light mb-3 text-center" style="max-width: 18rem;">
+          <div class="card-header">C++ programming</div>
+          <div class="card-body">
+            <h5 class="card-title">$300/6months</h5>
+            <ul>
+              <li>online class google class_room</li>
+              <li>10 users only included</li>
+              <li>saturday,sunday and monday </li>
+              <li>Email requried for class</li>
+              <li>Help center access</li>
+            </ul>
+            <button class="btn btn-outline-primary ps-4 pe-4">Sign up for free</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br><br><br><br>
+
+    <!-- footer  section -->
+    <hr>
+    <div class="container fluid">
+      <div class="row ">
+        <div class="col-sm-3">
+          <div class="colum_1">
+            <a href=""> <i class="fa-brands fa-html5" style="font-size: 50px;margin-bottom: 10px;  "></i></a>
+            <p><i class="fa-light fa-copyright ">2023-2024</i></p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi possimus
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-3 ">
+          <div class="colum_1">
+            <h3 class="heading_3">Features</h3>
+            <ul class="list">
+              <li><a href="">Cool stuff</a></li>
+              <li><a href="">Random feature</a></li>
+              <li><a href="">Team feature</a></li>
+              <li><a href="">Stuff for developers</a></li>
+              <li><a href="">anther one</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="colum_1">
+            <h3 class="heading_3">Resources</h3>
+            <ul class="list">
+              <li><a href="">Cool stuff</a></li>
+              <li><a href="">Resource</a></li>
+              <li><a href="">Team feature</a></li>
+              <li><a href="">Final resource</a></li>
+              <li><a href="">anther one</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-3">
+
+          <h3 class="heading_3">About</h3>
+          <ul class="list">
+            <li><a href="">About us</a></li>
+            <li><a href="">Resource</a></li>
+            <li><a href="">Team feature</a></li>
+            <li><a href="">Final resource</a></li>
+            <li><a href="">anther one</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+</body>
